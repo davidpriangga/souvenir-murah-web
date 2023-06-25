@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.page_product{
+  /* height: calc(100vh - 75px); */
+  background-size: cover;
+  background-image: url('/img/Slider.jpg');
+  /* overflow: hidden;   */
+  /* position: relative; */
+}
+.sign{
+  /* height: calc(100vh - 75px); */
+  padding-top: 5%;
+  padding-bottom: 14.2%;
+  background-size: cover;
+  background-image: url('/img/Slider.jpg');
+  /* overflow: hidden;   */
+  /* position: relative; */
+}
+.register{
+  /* height: calc(100vh - 75px); */
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-size: cover;
+  background-image: url('/img/Slider.jpg');
+  /* overflow: hidden;   */
+  /* position: relative; */
+}
+.categori{
+  /* height: calc(100vh - 75px); */
+  padding-top: 5.9%;
+  padding-bottom: 29.4%;
+  background-size: cover;
+  background-image: url('/img/Slider.jpg');
+  /* overflow: hidden;   */
+  /* position: relative; */
+}
+.row-profile{
+  /* padding-left: 15%; */
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+* {
+  box-sizing: border-box;
+}
+
+img{
+  object-fit: fill;
+  object-position: 0 30%;
+}
+
+nav{
+  background-color: black;
+}
+
+/* ----------- Loading ------------- */
+@import url("./loading.css");
+
+/* ----------- Products ------------- */
+@import url("./product.css");
+
+/* ----------- Profile ------------- */
+@import url("./profile.css");
+
+/* ----------- Products Manager ------------- */
+@import url("./products_manager.css");
